@@ -1,0 +1,36 @@
+[0.026s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8
+[0.060s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.279s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.318s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.321s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.331s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.530s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.983s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.122s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.221s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.221s] -- Configured cppcheck include dirs: 
+[1.221s] -- Configured cppcheck exclude dirs and/or files: 
+[1.222s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.223s] -- Added test 'lint_cmake' to check CMake code style
+[1.224s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.225s] -- Added test 'uncrustify' to check C / C++ code style
+[1.225s] -- Configured uncrustify additional arguments: 
+[1.226s] -- Added test 'xmllint' to check XML markup files
+[1.228s] -- Configuring done
+[1.247s] -- Generating done
+[1.251s] -- Build files have been written to: /home/htootayzaaung/ROS2/workspace/build/test
+[1.294s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[1.780s] [01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/publisher.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/String.hpp: No such file or directory
+[1.781s]     6 | #include [01;31m[K"std_msgs/msg/String.hpp"[m[K
+[1.781s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.781s] compilation terminated.
+[1.784s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[1.784s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[1.784s] gmake: *** [Makefile:146: all] Error 2
+[1.787s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8

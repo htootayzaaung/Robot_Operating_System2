@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[6.494s] [100%] [32m[1mLinking CXX executable talker[0m
+[6.763s] [100%] Built target talker
+[6.776s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8
+[6.814s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/htootayzaaung/ROS2/workspace/build/test
+[6.821s] -- Install configuration: ""
+[6.821s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/launch
+[6.821s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/launch/turtle.launch.py
+[6.822s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/test/lib/test/talker
+[6.823s] -- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/test/lib/test/talker" to ""
+[6.823s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[6.823s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[6.824s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/environment/ament_prefix_path.sh
+[6.824s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/test/share/test/environment/ament_prefix_path.dsv
+[6.824s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/environment/path.sh
+[6.824s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/test/share/test/environment/path.dsv
+[6.824s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/local_setup.bash
+[6.824s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/local_setup.sh
+[6.824s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/local_setup.zsh
+[6.824s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/test/share/test/local_setup.dsv
+[6.824s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/test/share/test/package.dsv
+[6.825s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/ament_index/resource_index/packages/test
+[6.825s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/cmake/testConfig.cmake
+[6.825s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/test/share/test/cmake/testConfig-version.cmake
+[6.825s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/test/share/test/package.xml
+[6.827s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/htootayzaaung/ROS2/workspace/build/test
