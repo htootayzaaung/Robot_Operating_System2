@@ -1,0 +1,6 @@
+Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/htootayzaaung/ROS2/workspace/src/test -DCMAKE_INSTALL_PREFIX=/home/htootayzaaung/ROS2/workspace/install/test
+Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/htootayzaaung/ROS2/workspace/src/test -DCMAKE_INSTALL_PREFIX=/home/htootayzaaung/ROS2/workspace/install/test
+Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8
+Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8
+Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/htootayzaaung/ROS2/workspace/build/test
+Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/htootayzaaung/ROS2/workspace/build/test
