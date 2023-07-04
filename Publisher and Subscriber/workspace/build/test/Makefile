@@ -223,6 +223,43 @@ listener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
 .PHONY : listener/fast
 
+#=============================================================================
+# Target rules for targets named talker2
+
+# Build rule for target.
+talker2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker2
+.PHONY : talker2
+
+# fast build rule for target.
+talker2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker2.dir/build.make CMakeFiles/talker2.dir/build
+.PHONY : talker2/fast
+
+src/pub_custom.o: src/pub_custom.cpp.o
+.PHONY : src/pub_custom.o
+
+# target to build an object file
+src/pub_custom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker2.dir/build.make CMakeFiles/talker2.dir/src/pub_custom.cpp.o
+.PHONY : src/pub_custom.cpp.o
+
+src/pub_custom.i: src/pub_custom.cpp.i
+.PHONY : src/pub_custom.i
+
+# target to preprocess a source file
+src/pub_custom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker2.dir/build.make CMakeFiles/talker2.dir/src/pub_custom.cpp.i
+.PHONY : src/pub_custom.cpp.i
+
+src/pub_custom.s: src/pub_custom.cpp.s
+.PHONY : src/pub_custom.s
+
+# target to generate assembly for a file
+src/pub_custom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker2.dir/build.make CMakeFiles/talker2.dir/src/pub_custom.cpp.s
+.PHONY : src/pub_custom.cpp.s
+
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
 
@@ -288,6 +325,10 @@ help:
 	@echo "... uninstall"
 	@echo "... listener"
 	@echo "... talker"
+	@echo "... talker2"
+	@echo "... src/pub_custom.o"
+	@echo "... src/pub_custom.i"
+	@echo "... src/pub_custom.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"

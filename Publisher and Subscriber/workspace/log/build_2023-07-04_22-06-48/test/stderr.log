@@ -1,0 +1,7 @@
+[01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:22:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’
+   22 |         auto msg = tutorial_interfaces::msg::[01;31m[KString[m[K();
+      |                                              [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker2.dir/build.make:76: CMakeFiles/talker2.dir/src/pub_custom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

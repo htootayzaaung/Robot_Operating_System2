@@ -1,0 +1,13 @@
+[0.021s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target talker2[0m
+[0.084s] [ 33%] Built target talker
+[0.084s] [ 66%] Built target listener
+[0.090s] [ 83%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/pub_custom.cpp.o[0m
+[3.536s] [01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[3.536s] [01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[3.537s]    23 |         msg.[01;31m[Kdata[m[K = this->count_++;
+[3.537s]       |             [01;31m[K^~~~[m[K
+[4.800s] gmake[2]: *** [CMakeFiles/talker2.dir/build.make:76: CMakeFiles/talker2.dir/src/pub_custom.cpp.o] Error 1
+[4.801s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker2.dir/all] Error 2
+[4.801s] gmake: *** [Makefile:146: all] Error 2
+[4.805s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/test -- -j8 -l8

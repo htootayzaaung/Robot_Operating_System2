@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target talker2[0m
+[ 33%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/pub_custom.cpp.o[0m

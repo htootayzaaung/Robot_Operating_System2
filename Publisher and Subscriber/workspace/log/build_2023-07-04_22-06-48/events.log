@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000486] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000571] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces')])}
+[0.002482] (test) JobStarted: {'identifier': 'test'}
+[0.017632] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.023576] (test) JobProgress: {'identifier': 'test', 'progress': 'build'}
+[0.024737] (test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/htootayzaaung/ROS2/workspace/build/test', '--', '-j8', '-l8'], 'cwd': '/home/htootayzaaung/ROS2/workspace/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'htootayzaaung'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/htootayzaaung'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/htootayzaaung/ROS2/workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/htootayzaaung/.oh-my-zsh'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('PAGER', 'less'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0449503f532cd5e04af0daff64a40431'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'htootayzaaung'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'htootayzaaung'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/htootayzaaung/.local/bin:/home/htootayzaaung/anaconda3/condabin:/home/htootayzaaung/.local/bin:/opt/ros/humble/bin:/home/htootayzaaung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MSI:@/tmp/.ICE-unix/2015,unix/MSI:/tmp/.ICE-unix/2015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/67f49bf8_5f81_49f1_bf2c_c7627defe03b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7VRQ71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces:/home/htootayzaaung/ROS2/workspace/install/test:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/htootayzaaung/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/htootayzaaung/ROS2/workspace/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/htootayzaaung/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0449503f532cd5e04af0daff64a40431'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces:/home/htootayzaaung/ROS2/workspace/install/test:/opt/ros/humble')]), 'shell': False}
+[0.074721] (test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100056] (-) TimerEvent: {}
+[0.200404] (-) TimerEvent: {}
+[0.293177] (test) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.300530] (-) TimerEvent: {}
+[0.328481] (test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.332523] (test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.340916] (test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.356869] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.378164] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400691] (-) TimerEvent: {}
+[0.462067] (test) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.500800] (-) TimerEvent: {}
+[0.526699] (test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600965] (-) TimerEvent: {}
+[0.613346] (test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.617385] (test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701120] (-) TimerEvent: {}
+[0.801440] (-) TimerEvent: {}
+[0.807467] (test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901552] (-) TimerEvent: {}
+[1.001875] (-) TimerEvent: {}
+[1.007169] (test) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101985] (-) TimerEvent: {}
+[1.130670] (test) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.199052] (test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.202064] (-) TimerEvent: {}
+[1.300901] (test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.301285] (test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.301401] (test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.301895] (test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.302126] (-) TimerEvent: {}
+[1.302850] (test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.303518] (test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.305107] (test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.305274] (test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.305773] (test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.308064] (test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.332216] (test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.334542] (test) StdoutLine: {'line': b'-- Build files have been written to: /home/htootayzaaung/ROS2/workspace/build/test\n'}
+[1.366035] (test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.366558] (test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.376993] (test) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker2.dir/src/pub_custom.cpp.o\x1b[0m\n'}
+[1.398562] (test) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[1.398862] (test) StdoutLine: {'line': b'[ 83%] Built target listener\n'}
+[1.402219] (-) TimerEvent: {}
+[1.502548] (-) TimerEvent: {}
+[1.602942] (-) TimerEvent: {}
+[1.703274] (-) TimerEvent: {}
+[1.803623] (-) TimerEvent: {}
+[1.904044] (-) TimerEvent: {}
+[2.004463] (-) TimerEvent: {}
+[2.104831] (-) TimerEvent: {}
+[2.205214] (-) TimerEvent: {}
+[2.305582] (-) TimerEvent: {}
+[2.405964] (-) TimerEvent: {}
+[2.506412] (-) TimerEvent: {}
+[2.606845] (-) TimerEvent: {}
+[2.707274] (-) TimerEvent: {}
+[2.807668] (-) TimerEvent: {}
+[2.908120] (-) TimerEvent: {}
+[3.008571] (-) TimerEvent: {}
+[3.109053] (-) TimerEvent: {}
+[3.209451] (-) TimerEvent: {}
+[3.309854] (-) TimerEvent: {}
+[3.410359] (-) TimerEvent: {}
+[3.510834] (-) TimerEvent: {}
+[3.611331] (-) TimerEvent: {}
+[3.711832] (-) TimerEvent: {}
+[3.812354] (-) TimerEvent: {}
+[3.912881] (-) TimerEvent: {}
+[4.013476] (-) TimerEvent: {}
+[4.114016] (-) TimerEvent: {}
+[4.214498] (-) TimerEvent: {}
+[4.314958] (-) TimerEvent: {}
+[4.415536] (-) TimerEvent: {}
+[4.516114] (-) TimerEvent: {}
+[4.616702] (-) TimerEvent: {}
+[4.717291] (-) TimerEvent: {}
+[4.817668] (-) TimerEvent: {}
+[4.918032] (-) TimerEvent: {}
+[4.989416] (test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.989782] (test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:22:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.989908] (test) StderrLine: {'line': b'   22 |         auto msg = tutorial_interfaces::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K();\n'}
+[4.990011] (test) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.018192] (-) TimerEvent: {}
+[5.118608] (-) TimerEvent: {}
+[5.219056] (-) TimerEvent: {}
+[5.319448] (-) TimerEvent: {}
+[5.419875] (-) TimerEvent: {}
+[5.520307] (-) TimerEvent: {}
+[5.620706] (-) TimerEvent: {}
+[5.721118] (-) TimerEvent: {}
+[5.821478] (-) TimerEvent: {}
+[5.921846] (-) TimerEvent: {}
+[6.022296] (-) TimerEvent: {}
+[6.122774] (-) TimerEvent: {}
+[6.124606] (test) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker2.dir/build.make:76: CMakeFiles/talker2.dir/src/pub_custom.cpp.o] Error 1\n'}
+[6.124900] (test) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker2.dir/all] Error 2\n'}
+[6.125403] (test) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.128379] (test) CommandEnded: {'returncode': 2}
+[6.190700] (test) JobEnded: {'identifier': 'test', 'rc': 2}
+[6.201400] (-) EventReactorShutdown: {}

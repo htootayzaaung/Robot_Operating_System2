@@ -1,1 +1,1 @@
-std_msgs;geometry_msgs;rclcpp;sensor_msgs;ros2launch;ament_lint_auto;ament_lint_common
+std_msgs;geometry_msgs;rclcpp;sensor_msgs;tutorial_interfaces;ros2launch;ament_lint_auto;ament_lint_common

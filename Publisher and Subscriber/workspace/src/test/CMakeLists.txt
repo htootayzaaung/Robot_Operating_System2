@@ -11,6 +11,7 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(tutorial_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -35,8 +36,12 @@ ament_target_dependencies(talker rclcpp std_msgs)
 add_executable(listener src/subscriber.cpp)
 ament_target_dependencies(listener rclcpp std_msgs)
 
+add_executable(talker2 src/pub_custom.cpp)
+ament_target_dependencies(talker2 rclcpp tutorial_interfaces)
+
 install(TARGETS
   talker
+  talker2
   listener 
   DESTINATION lib/${PROJECT_NAME}
 )

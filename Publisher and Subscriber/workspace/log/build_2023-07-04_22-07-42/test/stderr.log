@@ -1,0 +1,7 @@
+[01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/htootayzaaung/ROS2/workspace/src/test/src/pub_custom.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   23 |         msg.[01;31m[Kdata[m[K = this->count_++;
+      |             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/talker2.dir/build.make:76: CMakeFiles/talker2.dir/src/pub_custom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/talker2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
