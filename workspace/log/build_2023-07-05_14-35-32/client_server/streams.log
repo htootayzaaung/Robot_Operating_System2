@@ -1,0 +1,243 @@
+[0.017s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/client_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/client_server -- -j8 -l8
+[0.047s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.240s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.282s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.285s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.293s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.825s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.886s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.911s] -- Found client_server: 0.0.0 (/home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake)
+[1.293s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.915s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.946s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.946s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.946s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.962s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.980s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.981s] -- Configured cppcheck include dirs: 
+[1.981s] -- Configured cppcheck exclude dirs and/or files: 
+[1.982s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.983s] -- Added test 'lint_cmake' to check CMake code style
+[1.984s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.989s] -- Added test 'uncrustify' to check C / C++ code style
+[1.989s] -- Configured uncrustify additional arguments: 
+[1.990s] -- Added test 'xmllint' to check XML markup files
+[1.991s] -- Configuring done
+[2.037s] -- Generating done
+[2.042s] -- Build files have been written to: /home/htootayzaaung/ROS2/workspace/build/client_server
+[2.079s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_generator_c[0m
+[2.090s] [  2%] Built target client_server__cpp
+[2.093s] [  6%] [32mBuilding CXX object CMakeFiles/client.dir/src/Client.cpp.o[0m
+[2.093s] [  6%] [32mBuilding CXX object CMakeFiles/server.dir/src/Server.cpp.o[0m
+[2.096s] [ 16%] Built target client_server__rosidl_generator_c
+[2.104s] [ 16%] Built target ament_cmake_python_copy_client_server
+[2.106s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_cpp[0m
+[2.106s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_cpp[0m
+[2.107s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_cpp[0m
+[2.114s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_c[0m
+[2.114s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_c[0m
+[2.121s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_c[0m
+[2.139s] [ 30%] Built target client_server__rosidl_typesupport_introspection_cpp
+[2.142s] [ 39%] Built target client_server__rosidl_typesupport_c
+[2.142s] [ 55%] Built target client_server__rosidl_typesupport_introspection_c
+[2.143s] [ 58%] Built target client_server__rosidl_typesupport_cpp
+[2.143s] [ 62%] Built target client_server__rosidl_typesupport_fastrtps_cpp
+[2.150s] [ 72%] Built target client_server__rosidl_typesupport_fastrtps_c
+[2.173s] [ 72%] Built target client_server
+[2.195s] [ 74%] Built target client_server__py
+[2.206s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_generator_py[0m
+[2.221s] [ 81%] Built target client_server__rosidl_generator_py
+[2.236s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_c__pyext[0m
+[2.237s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.237s] [35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_c__pyext[0m
+[2.260s] [ 86%] Built target client_server__rosidl_typesupport_fastrtps_c__pyext
+[2.260s] [ 95%] Built target client_server__rosidl_typesupport_c__pyext
+[2.260s] [ 95%] Built target client_server__rosidl_typesupport_introspection_c__pyext
+[2.513s] running egg_info
+[2.514s] writing client_server.egg-info/PKG-INFO
+[2.514s] writing dependency_links to client_server.egg-info/dependency_links.txt
+[2.514s] writing top-level names to client_server.egg-info/top_level.txt
+[2.517s] reading manifest file 'client_server.egg-info/SOURCES.txt'
+[2.518s] writing manifest file 'client_server.egg-info/SOURCES.txt'
+[2.550s] [ 95%] Built target ament_cmake_python_build_client_server_egg
+[7.074s] [ 97%] [32m[1mLinking CXX executable server[0m
+[7.264s] [ 97%] Built target server
+[7.357s] [100%] [32m[1mLinking CXX executable client[0m
+[7.559s] [100%] Built target client
+[7.575s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/client_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/client_server -- -j8 -l8
+[7.677s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/client_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/htootayzaaung/ROS2/workspace/build/client_server
+[7.686s] -- Install configuration: ""
+[7.686s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/rosidl_interfaces/client_server
+[7.687s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+[7.687s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+[7.687s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+[7.687s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__functions.h
+[7.687s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__functions.c
+[7.687s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.h
+[7.688s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__struct.h
+[7.688s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/add_three_ints.h
+[7.688s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+[7.688s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+[7.688s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__struct.h
+[7.688s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__functions.c
+[7.689s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__struct.h
+[7.689s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.h
+[7.689s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__functions.h
+[7.689s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__type_support.h
+[7.689s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__functions.c
+[7.690s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__functions.h
+[7.690s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_generator_c__visibility_control.h
+[7.690s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/num.h
+[7.690s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/sphere.h
+[7.690s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/library_path.sh
+[7.691s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/library_path.dsv
+[7.691s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_c.so
+[7.691s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+[7.691s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+[7.691s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+[7.691s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[7.692s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+[7.692s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+[7.692s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[7.692s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.692s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_c.so
+[7.692s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+[7.693s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+[7.693s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+[7.693s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__struct.hpp
+[7.693s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__builder.hpp
+[7.693s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__traits.hpp
+[7.693s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/add_three_ints.hpp
+[7.694s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+[7.694s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+[7.694s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__traits.hpp
+[7.694s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__traits.hpp
+[7.694s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__struct.hpp
+[7.695s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__builder.hpp
+[7.695s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__builder.hpp
+[7.695s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__struct.hpp
+[7.695s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/num.hpp
+[7.695s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/sphere.hpp
+[7.695s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+[7.696s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+[7.696s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+[7.696s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[7.696s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/dds_fastrtps
+[7.696s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/dds_fastrtps
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_cpp.so
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[7.697s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.c
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_introspection_c.h
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.c
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_c.so
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_c.so
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[7.698s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.cpp
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.cpp
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_cpp.so
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_cpp.so
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/pythonpath.sh
+[7.699s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/pythonpath.dsv
+[7.699s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info
+[7.699s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/top_level.txt
+[7.699s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.699s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.699s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/PKG-INFO
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_introspection_c.c
+[7.700s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/__init__.py
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints_s.c
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/__init__.py
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints.py
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/libclient_server__rosidl_generator_py.so
+[7.700s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_c.c
+[7.701s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.701s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg
+[7.701s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num.py
+[7.701s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/__init__.py
+[7.701s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num_s.c
+[7.740s] Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server'...
+[7.740s] Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/__init__.py'...
+[7.740s] Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg'...
+[7.740s] Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv'...
+[7.746s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.746s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.746s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.747s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_py.so
+[7.747s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/msg/Num.idl
+[7.747s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts.idl
+[7.747s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/msg/Num.msg
+[7.748s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts.srv
+[7.748s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts_Request.msg
+[7.748s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts_Response.msg
+[7.748s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/client_server/server
+[7.749s] -- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/client_server/server" to ""
+[7.749s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/client_server/client
+[7.750s] -- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/client_server/client" to ""
+[7.750s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/package_run_dependencies/client_server
+[7.750s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/parent_prefix_path/client_server
+[7.751s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/ament_prefix_path.sh
+[7.751s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/ament_prefix_path.dsv
+[7.751s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/path.sh
+[7.751s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/path.dsv
+[7.751s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.bash
+[7.751s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.sh
+[7.752s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.zsh
+[7.752s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.dsv
+[7.752s] -- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/package.dsv
+[7.752s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/packages/client_server
+[7.752s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cExport.cmake
+[7.753s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cExport-noconfig.cmake
+[7.753s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cExport.cmake
+[7.753s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.753s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cppExport.cmake
+[7.753s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.754s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.754s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cExport.cmake
+[7.754s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.754s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cExport.cmake
+[7.754s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cExport-noconfig.cmake
+[7.754s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cppExport.cmake
+[7.755s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.755s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cppExport.cmake
+[7.755s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cppExport-noconfig.cmake
+[7.755s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_pyExport.cmake
+[7.755s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_pyExport-noconfig.cmake
+[7.755s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_libraries-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_targets-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_serverConfig.cmake
+[7.756s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_serverConfig-version.cmake
+[7.757s] -- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/package.xml
+[7.758s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/client_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/htootayzaaung/ROS2/workspace/build/client_server

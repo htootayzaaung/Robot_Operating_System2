@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (-) JobUnselected: {'identifier': 'test'}
+[0.000323] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000353] (client_server) JobQueued: {'identifier': 'client_server', 'dependencies': OrderedDict()}
+[0.000379] (client_server) JobStarted: {'identifier': 'client_server'}
+[0.013519] (client_server) JobProgress: {'identifier': 'client_server', 'progress': 'cmake'}
+[0.015493] (client_server) JobProgress: {'identifier': 'client_server', 'progress': 'build'}
+[0.015709] (client_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/htootayzaaung/ROS2/workspace/build/client_server', '--', '-j8', '-l8'], 'cwd': '/home/htootayzaaung/ROS2/workspace/build/client_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'htootayzaaung'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/htootayzaaung'), ('OLDPWD', '/home/htootayzaaung/ROS2/workspace/src/client_server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '3805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'htootayzaaung'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'htootayzaaung'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/htootayzaaung/.local/bin:/opt/ros/humble/bin:/home/htootayzaaung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MSI:@/tmp/.ICE-unix/1950,unix/MSI:/tmp/.ICE-unix/1950'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507a2f44_c44a_4f14_9086_b28b41ba335d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NY4W71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install/test:/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/htootayzaaung/ROS2/workspace/build/client_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install/test:/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.047958] (client_server) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098467] (-) TimerEvent: {}
+[0.198837] (-) TimerEvent: {}
+[0.236556] (client_server) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.276806] (client_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.280102] (client_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.288145] (client_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.298968] (-) TimerEvent: {}
+[0.303345] (client_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.324687] (client_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399141] (-) TimerEvent: {}
+[0.404352] (client_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.406234] (client_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499276] (-) TimerEvent: {}
+[0.593017] (client_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599390] (-) TimerEvent: {}
+[0.699760] (-) TimerEvent: {}
+[0.800222] (-) TimerEvent: {}
+[0.812246] (client_server) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.871981] (client_server) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.900371] (-) TimerEvent: {}
+[1.000731] (-) TimerEvent: {}
+[1.101104] (-) TimerEvent: {}
+[1.201464] (-) TimerEvent: {}
+[1.238495] (client_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.301602] (-) TimerEvent: {}
+[1.402015] (-) TimerEvent: {}
+[1.502366] (-) TimerEvent: {}
+[1.602714] (-) TimerEvent: {}
+[1.661873] (client_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702835] (-) TimerEvent: {}
+[1.803230] (-) TimerEvent: {}
+[1.825198] (client_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.855828] (client_server) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.886664] (client_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.886868] (client_server) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.886962] (client_server) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.901738] (client_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.903346] (-) TimerEvent: {}
+[1.916396] (client_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.917112] (client_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.917269] (client_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.918091] (client_server) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.919466] (client_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.920336] (client_server) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.924898] (client_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.925065] (client_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.925725] (client_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.927681] (client_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.965615] (client_server) StdoutLine: {'line': b'-- Generating done\n'}
+[1.969759] (client_server) StdoutLine: {'line': b'-- Build files have been written to: /home/htootayzaaung/ROS2/workspace/build/client_server\n'}
+[2.000245] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_generator_c\x1b[0m\n'}
+[2.003465] (-) TimerEvent: {}
+[2.010101] (client_server) StdoutLine: {'line': b'[  2%] Built target client_server__cpp\n'}
+[2.012471] (client_server) StdoutLine: {'line': b'[ 12%] Built target client_server__rosidl_generator_c\n'}
+[2.022702] (client_server) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_client_server\n'}
+[2.023085] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.025385] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.026044] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.028205] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.028520] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_c\x1b[0m\n'}
+[2.029652] (client_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.045288] (client_server) StdoutLine: {'line': b'[ 23%] Built target client_server__rosidl_typesupport_cpp\n'}
+[2.046705] (client_server) StdoutLine: {'line': b'[ 33%] Built target client_server__rosidl_typesupport_c\n'}
+[2.049172] (client_server) StdoutLine: {'line': b'[ 43%] Built target client_server__rosidl_typesupport_fastrtps_cpp\n'}
+[2.049752] (client_server) StdoutLine: {'line': b'[ 53%] Built target client_server__rosidl_typesupport_introspection_cpp\n'}
+[2.052238] (client_server) StdoutLine: {'line': b'[ 64%] Built target client_server__rosidl_typesupport_introspection_c\n'}
+[2.053290] (client_server) StdoutLine: {'line': b'[ 74%] Built target client_server__rosidl_typesupport_fastrtps_c\n'}
+[2.075289] (client_server) StdoutLine: {'line': b'[ 74%] Built target client_server\n'}
+[2.096652] (client_server) StdoutLine: {'line': b'[ 76%] Built target client_server__py\n'}
+[2.103556] (-) TimerEvent: {}
+[2.118146] (client_server) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/client_server__rosidl_generator_py.dir/rosidl_generator_py/client_server/msg/_num_s.c.o\x1b[0m\n'}
+[2.118592] (client_server) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/client_server__rosidl_generator_py.dir/rosidl_generator_py/client_server/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[2.203672] (-) TimerEvent: {}
+[2.279598] (client_server) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/client_server/libclient_server__rosidl_generator_py.so\x1b[0m\n'}
+[2.303770] (-) TimerEvent: {}
+[2.325678] (client_server) StdoutLine: {'line': b'[ 84%] Built target client_server__rosidl_generator_py\n'}
+[2.349010] (client_server) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/client_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/client_server/_client_server_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.350236] (client_server) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/client_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/client_server/_client_server_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.355811] (client_server) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/client_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/client_server/_client_server_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.380119] (client_server) StdoutLine: {'line': b'running egg_info\n'}
+[2.381103] (client_server) StdoutLine: {'line': b'writing client_server.egg-info/PKG-INFO\n'}
+[2.381364] (client_server) StdoutLine: {'line': b'writing dependency_links to client_server.egg-info/dependency_links.txt\n'}
+[2.381567] (client_server) StdoutLine: {'line': b'writing top-level names to client_server.egg-info/top_level.txt\n'}
+[2.384558] (client_server) StdoutLine: {'line': b"reading manifest file 'client_server.egg-info/SOURCES.txt'\n"}
+[2.385335] (client_server) StdoutLine: {'line': b"writing manifest file 'client_server.egg-info/SOURCES.txt'\n"}
+[2.403901] (-) TimerEvent: {}
+[2.415487] (client_server) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_build_client_server_egg\n'}
+[2.479249] (client_server) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.479713] (client_server) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.503988] (-) TimerEvent: {}
+[2.516480] (client_server) StdoutLine: {'line': b'[ 97%] Built target client_server__rosidl_typesupport_c__pyext\n'}
+[2.518618] (client_server) StdoutLine: {'line': b'[ 97%] Built target client_server__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.520908] (client_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.559525] (client_server) StdoutLine: {'line': b'[100%] Built target client_server__rosidl_typesupport_introspection_c__pyext\n'}
+[2.572613] (client_server) CommandEnded: {'returncode': 0}
+[2.604084] (-) TimerEvent: {}
+[2.655922] (client_server) JobProgress: {'identifier': 'client_server', 'progress': 'install'}
+[2.665545] (client_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/htootayzaaung/ROS2/workspace/build/client_server'], 'cwd': '/home/htootayzaaung/ROS2/workspace/build/client_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'htootayzaaung'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/htootayzaaung'), ('OLDPWD', '/home/htootayzaaung/ROS2/workspace/src/client_server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '3805'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'htootayzaaung'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'htootayzaaung'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/htootayzaaung/.local/bin:/opt/ros/humble/bin:/home/htootayzaaung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MSI:@/tmp/.ICE-unix/1950,unix/MSI:/tmp/.ICE-unix/1950'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/507a2f44_c44a_4f14_9086_b28b41ba335d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NY4W71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install/test:/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/htootayzaaung/ROS2/workspace/build/client_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/htootayzaaung/ROS2/workspace/install/test:/home/htootayzaaung/ROS2/workspace/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.674874] (client_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.675213] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/rosidl_interfaces/client_server\n'}
+[2.675444] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server\n'}
+[2.675665] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv\n'}
+[2.675829] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail\n'}
+[2.676056] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__functions.h\n'}
+[2.676226] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__functions.c\n'}
+[2.676441] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.h\n'}
+[2.676608] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__struct.h\n'}
+[2.676791] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/add_three_ints.h\n'}
+[2.677017] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg\n'}
+[2.677202] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail\n'}
+[2.677364] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__struct.h\n'}
+[2.677527] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__functions.c\n'}
+[2.677757] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__struct.h\n'}
+[2.677906] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.h\n'}
+[2.678057] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__functions.h\n'}
+[2.678267] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__type_support.h\n'}
+[2.678434] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__functions.c\n'}
+[2.678651] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__functions.h\n'}
+[2.678855] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.679018] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/num.h\n'}
+[2.679230] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/sphere.h\n'}
+[2.679397] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/library_path.sh\n'}
+[2.679581] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/library_path.dsv\n'}
+[2.679798] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_c.so\n'}
+[2.680495] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_c.so" to ""\n'}
+[2.680792] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server\n'}
+[2.680998] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv\n'}
+[2.681166] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail\n'}
+[2.681327] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.681484] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg\n'}
+[2.681734] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail\n'}
+[2.681903] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[2.682047] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.682202] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_c.so\n'}
+[2.682436] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.682597] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server\n'}
+[2.682793] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv\n'}
+[2.682960] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail\n'}
+[2.683118] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__struct.hpp\n'}
+[2.683274] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__builder.hpp\n'}
+[2.683508] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__traits.hpp\n'}
+[2.683675] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/add_three_ints.hpp\n'}
+[2.683838] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg\n'}
+[2.683996] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail\n'}
+[2.684206] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__traits.hpp\n'}
+[2.684368] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__traits.hpp\n'}
+[2.684526] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__struct.hpp\n'}
+[2.684682] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__builder.hpp\n'}
+[2.684845] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__builder.hpp\n'}
+[2.685082] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__struct.hpp\n'}
+[2.685264] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/num.hpp\n'}
+[2.685414] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/sphere.hpp\n'}
+[2.685563] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server\n'}
+[2.685720] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv\n'}
+[2.685877] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail\n'}
+[2.686030] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.686179] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/dds_fastrtps\n'}
+[2.686394] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg\n'}
+[2.686542] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail\n'}
+[2.686692] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.686839] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/dds_fastrtps\n'}
+[2.686986] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.687137] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.687364] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.687524] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server\n'}
+[2.687675] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv\n'}
+[2.687865] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail\n'}
+[2.688021] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.688171] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.c\n'}
+[2.688315] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg\n'}
+[2.688457] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail\n'}
+[2.688608] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[2.688761] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.c\n'}
+[2.688910] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.689120] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_c.so\n'}
+[2.689284] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.689434] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_c.so\n'}
+[2.689584] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_c.so" to ""\n'}
+[2.689836] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server\n'}
+[2.689995] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv\n'}
+[2.690188] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail\n'}
+[2.690345] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.690496] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.cpp\n'}
+[2.690644] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg\n'}
+[2.690786] (client_server) StdoutLine: {'line': b'-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail\n'}
+[2.690935] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.cpp\n'}
+[2.691089] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.691291] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_cpp.so\n'}
+[2.691427] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.691573] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_cpp.so\n'}
+[2.691794] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_cpp.so" to ""\n'}
+[2.691985] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/pythonpath.sh\n'}
+[2.692138] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/pythonpath.dsv\n'}
+[2.692360] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info\n'}
+[2.692561] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.692719] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.692950] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.693150] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.693344] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server\n'}
+[2.693495] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.693754] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.693996] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/__init__.py\n'}
+[2.694148] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv\n'}
+[2.694302] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints_s.c\n'}
+[2.694537] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/__init__.py\n'}
+[2.694696] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints.py\n'}
+[2.694852] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.695094] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.695293] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/libclient_server__rosidl_generator_py.so\n'}
+[2.695456] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_c.c\n'}
+[2.695698] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.695876] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg\n'}
+[2.696039] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num.py\n'}
+[2.696240] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/__init__.py\n'}
+[2.696378] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num_s.c\n'}
+[2.704158] (-) TimerEvent: {}
+[2.757337] (client_server) StdoutLine: {'line': b"Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server'...\n"}
+[2.757555] (client_server) StdoutLine: {'line': b"Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/__init__.py'...\n"}
+[2.757648] (client_server) StdoutLine: {'line': b"Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg'...\n"}
+[2.757756] (client_server) StdoutLine: {'line': b"Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/__init__.py'...\n"}
+[2.757841] (client_server) StdoutLine: {'line': b"Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num.py'...\n"}
+[2.757934] (client_server) StdoutLine: {'line': b"Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv'...\n"}
+[2.758015] (client_server) StdoutLine: {'line': b"Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/__init__.py'...\n"}
+[2.758095] (client_server) StdoutLine: {'line': b"Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints.py'...\n"}
+[2.763583] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.764032] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.764332] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.764691] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.765000] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.765395] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.765618] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_py.so\n'}
+[2.766083] (client_server) StdoutLine: {'line': b'-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_py.so" to ""\n'}
+[2.766329] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/msg/Num.idl\n'}
+[2.766549] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts.idl\n'}
+[2.766774] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/msg/Num.msg\n'}
+[2.766994] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts.srv\n'}
+[2.767207] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts_Request.msg\n'}
+[2.767411] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts_Response.msg\n'}
+[2.767653] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/package_run_dependencies/client_server\n'}
+[2.767918] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/parent_prefix_path/client_server\n'}
+[2.768148] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/ament_prefix_path.sh\n'}
+[2.768368] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/ament_prefix_path.dsv\n'}
+[2.768591] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/path.sh\n'}
+[2.768806] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/path.dsv\n'}
+[2.769023] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.bash\n'}
+[2.769239] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.sh\n'}
+[2.769476] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.zsh\n'}
+[2.769705] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.dsv\n'}
+[2.769932] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/package.dsv\n'}
+[2.770240] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/packages/client_server\n'}
+[2.770517] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cExport.cmake\n'}
+[2.770757] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.771013] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.771241] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.771482] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cppExport.cmake\n'}
+[2.771731] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.771975] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.772227] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.772472] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.772730] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cExport.cmake\n'}
+[2.772967] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.773223] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.773439] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.773665] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cppExport.cmake\n'}
+[2.773885] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.774114] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_pyExport.cmake\n'}
+[2.774342] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.774564] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake-extras.cmake\n'}
+[2.774774] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.774982] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.775199] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.775408] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.775624] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.775839] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.776049] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_serverConfig.cmake\n'}
+[2.776247] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_serverConfig-version.cmake\n'}
+[2.776433] (client_server) StdoutLine: {'line': b'-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/package.xml\n'}
+[2.779059] (client_server) CommandEnded: {'returncode': 0}
+[2.804257] (-) TimerEvent: {}
+[2.899596] (client_server) JobEnded: {'identifier': 'client_server', 'rc': 0}
+[2.900399] (-) EventReactorShutdown: {}

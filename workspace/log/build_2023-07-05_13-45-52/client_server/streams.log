@@ -1,0 +1,68 @@
+[0.017s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/client_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/htootayzaaung/ROS2/workspace/src/client_server -DCMAKE_INSTALL_PREFIX=/home/htootayzaaung/ROS2/workspace/install/client_server
+[0.031s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.224s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.265s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.268s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.277s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.853s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.249s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.053s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.084s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.085s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.135s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.148s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.148s] -- Configured cppcheck include dirs: 
+[2.149s] -- Configured cppcheck exclude dirs and/or files: 
+[2.150s] -- Added test 'lint_cmake' to check CMake code style
+[2.151s] -- Added test 'uncrustify' to check C / C++ code style
+[2.151s] -- Configured uncrustify additional arguments: 
+[2.151s] -- Added test 'xmllint' to check XML markup files
+[2.154s] -- Configuring done
+[2.208s] -- Generating done
+[2.212s] -- Build files have been written to: /home/htootayzaaung/ROS2/workspace/build/client_server
+[2.223s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/client_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/htootayzaaung/ROS2/workspace/src/client_server -DCMAKE_INSTALL_PREFIX=/home/htootayzaaung/ROS2/workspace/install/client_server
+[2.226s] Invoking command in '/home/htootayzaaung/ROS2/workspace/build/client_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/client_server -- -j8 -l8
+[2.275s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.283s] [  3%] [32mBuilding CXX object CMakeFiles/server.dir/src/Server.cpp.o[0m
+[2.286s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.287s] [  7%] [32mBuilding CXX object CMakeFiles/client.dir/src/Client.cpp.o[0m
+[2.293s] [  7%] Built target ament_cmake_python_copy_client_server
+[2.542s] [01m[K/home/htootayzaaung/ROS2/workspace/src/client_server/src/Server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kclient_server/srv/add_three_ints.hpp: No such file or directory
+[2.542s]     2 | #include [01;31m[K"client_server/srv/add_three_ints.hpp"[m[K                                        // CHANGE
+[2.542s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.543s] compilation terminated.
+[2.545s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/Server.cpp.o] Error 1
+[2.546s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/server.dir/all] Error 2
+[2.546s] gmake[1]: *** Waiting for unfinished jobs....
+[2.630s] running egg_info
+[2.631s] creating client_server.egg-info
+[2.632s] writing client_server.egg-info/PKG-INFO
+[2.632s] writing dependency_links to client_server.egg-info/dependency_links.txt
+[2.633s] writing top-level names to client_server.egg-info/top_level.txt
+[2.633s] writing manifest file 'client_server.egg-info/SOURCES.txt'
+[2.636s] reading manifest file 'client_server.egg-info/SOURCES.txt'
+[2.637s] writing manifest file 'client_server.egg-info/SOURCES.txt'
+[2.660s] [01m[K/home/htootayzaaung/ROS2/workspace/src/client_server/src/Client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kclient_server/srv/add_three_ints.hpp: No such file or directory
+[2.660s]     2 | #include [01;31m[K"client_server/srv/add_three_ints.hpp"[m[K                                       // CHANGE
+[2.661s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.661s] compilation terminated.
+[2.663s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/Client.cpp.o] Error 1
+[2.664s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2
+[2.669s] [  7%] Built target ament_cmake_python_build_client_server_egg
+[2.821s] [ 11%] [32mBuilding C object CMakeFiles/client_server__rosidl_generator_c.dir/rosidl_generator_c/client_server/msg/detail/sphere__functions.c.o[0m
+[2.821s] [ 11%] [32mBuilding C object CMakeFiles/client_server__rosidl_generator_c.dir/rosidl_generator_c/client_server/msg/detail/num__functions.c.o[0m
+[2.821s] [ 13%] [32mBuilding C object CMakeFiles/client_server__rosidl_generator_c.dir/rosidl_generator_c/client_server/srv/detail/add_three_ints__functions.c.o[0m
+[2.900s] [ 15%] [32m[1mLinking C shared library libclient_server__rosidl_generator_c.so[0m
+[2.913s] [ 15%] Built target client_server__cpp
+[2.944s] [ 15%] Built target client_server__rosidl_generator_c
+[2.945s] gmake: *** [Makefile:146: all] Error 2
+[2.947s] Invoked command in '/home/htootayzaaung/ROS2/workspace/build/client_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/client_server -- -j8 -l8

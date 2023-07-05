@@ -1,0 +1,2 @@
+Invoking command in '/home/htootayzaaung/ROS2/workspace/build/client_server': /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/client_server -- -j8 -l8
+Invoked command in '/home/htootayzaaung/ROS2/workspace/build/client_server' returned '2': /usr/bin/cmake --build /home/htootayzaaung/ROS2/workspace/build/client_server -- -j8 -l8

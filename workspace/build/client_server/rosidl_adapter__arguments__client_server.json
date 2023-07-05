@@ -1,0 +1,7 @@
+{
+  "package_name": "client_server",
+  "non_idl_tuples": [
+    "/home/htootayzaaung/ROS2/workspace/src/client_server:msg/Num.msg",
+    "/home/htootayzaaung/ROS2/workspace/src/client_server:srv/AddThreeInts.srv"
+  ]
+}

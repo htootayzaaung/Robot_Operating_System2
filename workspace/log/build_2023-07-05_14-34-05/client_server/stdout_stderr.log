@@ -1,0 +1,248 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/htootayzaaung/ROS2/workspace/build/client_server
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_generator_c[0m
+[  2%] Built target client_server__cpp
+[ 12%] Built target client_server__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_client_server
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target client_server__rosidl_typesupport_fastrtps_c[0m
+[ 23%] Built target client_server__rosidl_typesupport_cpp
+[ 33%] Built target client_server__rosidl_typesupport_c
+[ 43%] Built target client_server__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target client_server__rosidl_typesupport_introspection_cpp
+[ 64%] Built target client_server__rosidl_typesupport_introspection_c
+[ 74%] Built target client_server__rosidl_typesupport_fastrtps_c
+[ 74%] Built target client_server
+[ 76%] Built target client_server__py
+[ 79%] [32mBuilding C object CMakeFiles/client_server__rosidl_generator_py.dir/rosidl_generator_py/client_server/msg/_num_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/client_server__rosidl_generator_py.dir/rosidl_generator_py/client_server/srv/_add_three_ints_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/client_server/libclient_server__rosidl_generator_py.so[0m
+[ 84%] Built target client_server__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/client_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/client_server/_client_server_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/client_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/client_server/_client_server_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/client_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/client_server/_client_server_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+running egg_info
+writing client_server.egg-info/PKG-INFO
+writing dependency_links to client_server.egg-info/dependency_links.txt
+writing top-level names to client_server.egg-info/top_level.txt
+reading manifest file 'client_server.egg-info/SOURCES.txt'
+writing manifest file 'client_server.egg-info/SOURCES.txt'
+[ 92%] Built target ament_cmake_python_build_client_server_egg
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target client_server__rosidl_typesupport_c__pyext
+[ 97%] Built target client_server__rosidl_typesupport_fastrtps_c__pyext
+[100%] [32m[1mLinking C shared library rosidl_generator_py/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target client_server__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/rosidl_interfaces/client_server
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__functions.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__functions.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__struct.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/add_three_ints.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__struct.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__functions.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__struct.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__functions.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__type_support.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__functions.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__functions.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/num.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/sphere.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/library_path.sh
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/library_path.dsv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_c.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__struct.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__builder.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__traits.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/add_three_ints.hpp
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__traits.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__traits.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__struct.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/sphere__builder.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__builder.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__struct.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/num.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/sphere.hpp
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/dds_fastrtps
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/dds_fastrtps
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.c
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_c.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/srv/detail/add_three_ints__type_support.cpp
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg
+-- Up-to-date: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__type_support.cpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/include/client_server/client_server/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/pythonpath.sh
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/pythonpath.dsv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/__init__.py
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints_s.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/__init__.py
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints.py
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/libclient_server__rosidl_generator_py.so
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/_client_server_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num.py
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/__init__.py
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num_s.c
+Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server'...
+Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/__init__.py'...
+Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg'...
+Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/__init__.py'...
+Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/msg/_num.py'...
+Listing '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv'...
+Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/__init__.py'...
+Compiling '/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/srv/_add_three_ints.py'...
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/local/lib/python3.10/dist-packages/client_server/client_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_py.so
+-- Set runtime path of "/home/htootayzaaung/ROS2/workspace/install/client_server/lib/libclient_server__rosidl_generator_py.so" to ""
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/msg/Num.idl
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts.idl
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/msg/Num.msg
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts.srv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts_Request.msg
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/srv/AddThreeInts_Response.msg
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/package_run_dependencies/client_server
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/parent_prefix_path/client_server
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/ament_prefix_path.sh
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/ament_prefix_path.dsv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/path.sh
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/environment/path.dsv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.bash
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.sh
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.zsh
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/local_setup.dsv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/package.dsv
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/ament_index/resource_index/packages/client_server
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_cppExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_server__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_pyExport.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/export_client_server__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_serverConfig.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/cmake/client_serverConfig-version.cmake
+-- Installing: /home/htootayzaaung/ROS2/workspace/install/client_server/share/client_server/package.xml

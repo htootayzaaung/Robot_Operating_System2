@@ -1,0 +1,2 @@
+Invoking command in '/home/htootayzaaung/ROS2/workspace/build/client_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/htootayzaaung/ROS2/workspace/src/client_server -DCMAKE_INSTALL_PREFIX=/home/htootayzaaung/ROS2/workspace/install/client_server
+Invoked command in '/home/htootayzaaung/ROS2/workspace/build/client_server' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/htootayzaaung/ROS2/workspace/src/client_server -DCMAKE_INSTALL_PREFIX=/home/htootayzaaung/ROS2/workspace/install/client_server

@@ -1,0 +1,31 @@
+[33mCMake Warning at CMakeLists.txt:14 (find_package):
+  By not providing "Findclient_server.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "client_server", but CMake did not find one.
+
+  Could not find a package configuration file provided by "client_server"
+  with any of the following names:
+
+    client_serverConfig.cmake
+    client_server-config.cmake
+
+  Add the installation prefix of "client_server" to CMAKE_PREFIX_PATH or set
+  "client_server_DIR" to a directory containing one of the above files.  If
+  "client_server" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+[01m[K/home/htootayzaaung/ROS2/workspace/src/client_server/src/Server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kclient_server/srv/add_three_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"client_server/srv/add_three_ints.hpp"[m[K                                        // CHANGE
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/Server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/htootayzaaung/ROS2/workspace/src/client_server/src/Client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kclient_server/srv/add_three_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"client_server/srv/add_three_ints.hpp"[m[K                                       // CHANGE
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/Client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
